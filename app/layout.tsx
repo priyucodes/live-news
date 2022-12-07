@@ -8,9 +8,11 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>
+      {/* UI tip */}
+      {/* gray-100 more subtle and gentle to our eyes than bg white  */}
+      <body className="bg-gray-100 dark:bg-zinc900 transition-all duration-700">
         <Header />
-        <div>{children}</div>
+        <div className="max-w-6xl mx-auto">{children}</div>
       </body>
     </html>
   );
