@@ -5,3 +5,12 @@
 
 export {};
 // Add subscribe to news letter https://pragmaticpineapple.com/add-newsletter-subscription-form-to-react-website/
+
+/* in cli
+vercel
+then it will setup
+or vercel build
+our deployment will fail as no env variable go to inspect link it will go to vercel deployment go to settings control paste your env variable.
+then run vercel env pull (we get .env file with all envs).
+then do vercel again
+*/
