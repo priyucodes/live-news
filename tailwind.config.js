@@ -8,5 +8,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [require('@tailwindcss/line-clamp')],
+};
+// https://tailwindcss.com/blog/multi-line-truncation-with-tailwindcss-line-clamp
